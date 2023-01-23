@@ -120,6 +120,12 @@ h6 {
   background: transparent;
 }
 
+#header-innerPage{
+  height: 80px;
+  z-index: 997;
+  background: rgb(24 24 24 / 94%);
+}
+
 #header.header-scrolled {
   background: rgba(19, 19, 19, 0.9);
   height: 70px;
