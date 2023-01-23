@@ -53,7 +53,7 @@ h6 {
   opacity: 0;
   right: 15px;
   bottom: 15px;
-  z-index: 996; 
+  z-index: 996;
   background: #ffc801;
   width: 40px;
   height: 40px;
@@ -120,7 +120,7 @@ h6 {
   background: transparent;
 }
 
-#header-innerPage{
+#header-innerPage {
   height: 80px;
   z-index: 997;
   background: rgb(24 24 24 / 94%);
@@ -570,12 +570,23 @@ section {
   padding: 80px 0;
 }
 
-#about .about-container .background {
+.about-container {
+  background: #fff;
+  padding: 80px 0;
+}
+
+.txt-carreira {
+  display: flex;
+  align-items: center;
+}
+
+.inner-carreira .background-carreira {
   min-height: 300px;
-  background: url(../img/img-sobre.png) center top no-repeat;
-  background-size: 550px;
+  background: url(../img/plano-carreira-gerente.png) center top no-repeat;
+  background-size: 650px;
   margin-bottom: 10px;
 }
+
 
 #about .about-container .content {
   background: #fff;
@@ -1161,7 +1172,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #343b40;
+  background: rgb(24 24 24 / 94%);
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
