@@ -511,7 +511,7 @@ section {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/img-sobre.png) center top no-repeat;
+  background: url(../img/img-sobre.jpg) center top no-repeat;
   background-size: 550px;
   margin-bottom: 10px;
 }
